@@ -6,6 +6,8 @@ import {
   Image,
   TouchableWithoutFeedback,
   TouchableOpacity,
+  Button,
+  Alert,
 } from "react-native";
 
 export default function App() {
@@ -29,6 +31,11 @@ export default function App() {
           }}
         />
       </TouchableOpacity>
+      <Button
+        color="orange"
+        title="Click Me"
+        onPress={() => alert("button pressed")}
+      />
       <StatusBar style="auto" />
     </View>
   );
