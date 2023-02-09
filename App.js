@@ -34,7 +34,12 @@ export default function App() {
       <Button
         color="orange"
         title="Click Me"
-        onPress={() => alert("button pressed")}
+        onPress={() =>
+          Alert.alert("My title", "My message", [
+            { text: "Yes" },
+            { text: "No" },
+          ])
+        }
       />
       <StatusBar style="auto" />
     </View>
