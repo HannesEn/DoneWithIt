@@ -9,41 +9,11 @@ import {
   Button,
   Alert,
 } from "react-native";
+import WelcomeScreen from "./App/screens/WelcomeScreen";
 
 export default function App() {
   console.log("App executed");
-  return (
-    <View style={styles.container}>
-      <Text style={styles.textCustomization}>Hello friend.</Text>
-      <TouchableWithoutFeedback onPress={() => console.log("icon pressed")}>
-        <Image
-          style={[styles.iconImageCustomization, styles.imageCustomization]}
-          source={require("./assets/icon.png")}
-        />
-      </TouchableWithoutFeedback>
-      <TouchableOpacity onPress={() => console.log("Picsum image pressed")}>
-        <Image
-          style={styles.imageCustomization}
-          source={{
-            width: 200,
-            height: 300,
-            uri: "https://picsum.photos/200/300",
-          }}
-        />
-      </TouchableOpacity>
-      <Button
-        color="orange"
-        title="Click Me"
-        onPress={() =>
-          Alert.alert("My title", "My message", [
-            { text: "Yes" },
-            { text: "No" },
-          ])
-        }
-      />
-      <StatusBar style="auto" />
-    </View>
-  );
+  return <WelcomeScreen />;
 }
 
 const styles = StyleSheet.create({
