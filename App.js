@@ -9,11 +9,12 @@ import {
   Button,
   Alert,
 } from "react-native";
+import ViewImageScreen from "./App/screens/ViewImageScreen";
 import WelcomeScreen from "./App/screens/WelcomeScreen";
 
 export default function App() {
   console.log("App executed");
-  return <WelcomeScreen />;
+  return <ViewImageScreen />;
 }
 
 const styles = StyleSheet.create({
