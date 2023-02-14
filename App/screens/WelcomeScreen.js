@@ -1,6 +1,8 @@
 import React from "react";
 import { Image, ImageBackground, StyleSheet, View, Text } from "react-native";
 
+import colours from "../config/colours";
+
 function WelcomeScreen(props) {
   return (
     <ImageBackground
@@ -26,12 +28,12 @@ const styles = StyleSheet.create({
   loginButton: {
     width: "100%",
     height: 70,
-    backgroundColor: "#fc5c65",
+    backgroundColor: colours.primary,
   },
   registerButton: {
     width: "100%",
     height: 70,
-    backgroundColor: "#4ecdc4",
+    backgroundColor: colours.secondary,
   },
   logo: {
     width: 100,
