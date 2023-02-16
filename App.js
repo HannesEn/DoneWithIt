@@ -10,14 +10,25 @@ import {
   Alert,
 } from "react-native";
 import AppButton from "./App/components/AppButton";
+import colours from "./App/config/colours";
 import ViewImageScreen from "./App/screens/ViewImageScreen";
 import WelcomeScreen from "./App/screens/WelcomeScreen";
 
 export default function App() {
   console.log("App executed");
   return (
-    <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-      <AppButton title="Login" />
+    <View
+      style={{
+        backgroundColor: colours.lightGray,
+        padding: 20,
+        paddingTop: 100,
+      }}
+    >
+      <Card
+        title="Red jacket for sale"
+        subTitle="$100"
+        image="./App/assets/jacket.jpg"
+      />
     </View>
   );
 }
