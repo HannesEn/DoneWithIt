@@ -13,6 +13,8 @@ import AppButton from "./App/components/AppButton";
 import colours from "./App/config/colours";
 import ViewImageScreen from "./App/screens/ViewImageScreen";
 import WelcomeScreen from "./App/screens/WelcomeScreen";
+import Card from "./App/components/Card";
+import AppText from "./App/components/AppText";
 
 export default function App() {
   console.log("App executed");
@@ -27,7 +29,7 @@ export default function App() {
       <Card
         title="Red jacket for sale"
         subTitle="$100"
-        image="./App/assets/jacket.jpg"
+        image={require("./App/assets/jacket.jpg")}
       />
     </View>
   );
