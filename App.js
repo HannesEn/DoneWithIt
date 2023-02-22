@@ -15,29 +15,16 @@ import ViewImageScreen from "./App/screens/ViewImageScreen";
 import WelcomeScreen from "./App/screens/WelcomeScreen";
 import Card from "./App/components/Card";
 import AppText from "./App/components/AppText";
+import ListingDetailsScreen from "./App/components/ListingDetailsScreen";
 
 export default function App() {
   console.log("App executed");
-  return (
-    <View
-      style={{
-        backgroundColor: colours.lightGray,
-        padding: 20,
-        paddingTop: 100,
-      }}
-    >
-      <Card
-        title="Red jacket for sale"
-        subTitle="$100"
-        image={require("./App/assets/jacket.jpg")}
-      />
-    </View>
-  );
+  return <ListingDetailsScreen />;
 }
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: "#fff",
+    backgroundColor: colours.black,
     flex: 1,
     alignItems: "center",
     justifyContent: "center",

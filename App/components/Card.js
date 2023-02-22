@@ -9,26 +9,13 @@ function Card({ title, subTitle, image }) {
     <View style={styles.card}>
       <Image style={styles.image} source={image} />
       <View style={styles.detailsContainer}>
-        <AppText>{title}</AppText>
-        <AppText>{subTitle}</AppText>
+        <AppText style={styles.title}>{title}</AppText>
+        <AppText style={styles.subTitle}>{subTitle}</AppText>
       </View>
     </View>
   );
 }
 
-const styles = StyleSheet.create({
-  card: {
-    borderRadius: 15,
-    backgroundColor: colours.white,
-    marginBottom: 20,
-  },
-  image: {
-    width: "100%",
-    height: 200,
-  },
-  detailsContainer: {
-    padding: 20,
-  },
-});
+const styles = StyleSheet.create({});
 
 export default Card;
