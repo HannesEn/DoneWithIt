@@ -16,10 +16,12 @@ import WelcomeScreen from "./App/screens/WelcomeScreen";
 import Card from "./App/components/Card";
 import AppText from "./App/components/AppText";
 import ListingDetailsScreen from "./App/components/ListingDetailsScreen";
+import ListItem from "./App/components/ListItem";
+import MessagesScreen from "./App/screens/MessagesScreen";
 
 export default function App() {
   console.log("App executed");
-  return <ListingDetailsScreen />;
+  return <MessagesScreen />;
 }
 
 const styles = StyleSheet.create({
