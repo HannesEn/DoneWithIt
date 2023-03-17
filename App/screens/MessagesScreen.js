@@ -26,6 +26,7 @@ function MessagesScreen(props) {
   array[1];
   const setCount = array[1];
   const handleDelete = (message) => {};
+  const [messages, setMessages] = useState(initialMessages);
 
   return (
     <Screen>
