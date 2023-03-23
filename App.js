@@ -11,6 +11,8 @@ import {
 } from "react-native";
 import AppButton from "./App/components/AppButton";
 import colours from "./App/config/colours";
+import Icon from "./App/components/Icon";
+import Screen from "./App/components/Screen";
 import ViewImageScreen from "./App/screens/ViewImageScreen";
 import WelcomeScreen from "./App/screens/WelcomeScreen";
 import Card from "./App/components/Card";
@@ -18,10 +20,11 @@ import AppText from "./App/components/AppText";
 import ListingDetailsScreen from "./App/components/ListingDetailsScreen";
 import ListItem from "./App/components/ListItem";
 import MessagesScreen from "./App/screens/MessagesScreen";
+import AccountScreen from "./App/screens/AccountScreen";
 
 export default function App() {
   console.log("App executed");
-  return <MessagesScreen />;
+  return <AccountScreen />;
 }
 
 const styles = StyleSheet.create({
