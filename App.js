@@ -21,10 +21,11 @@ import ListingDetailsScreen from "./App/components/ListingDetailsScreen";
 import ListItem from "./App/components/ListItem";
 import MessagesScreen from "./App/screens/MessagesScreen";
 import AccountScreen from "./App/screens/AccountScreen";
+import ListingsScreen from "./App/screens/ListingsScreen";
 
 export default function App() {
   console.log("App executed");
-  return <AccountScreen />;
+  return <ListingsScreen />;
 }
 
 const styles = StyleSheet.create({

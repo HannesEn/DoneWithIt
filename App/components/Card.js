@@ -16,6 +16,27 @@ function Card({ title, subTitle, image }) {
   );
 }
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+  card: {
+    borderRadius: 15,
+    backgroundColor: colours.white,
+    marginBottom: 20,
+    overflow: "hidden",
+  },
+  detailsContainer: {
+    padding: 20,
+  },
+  image: {
+    width: "100%",
+    height: 200,
+  },
+  subTitle: {
+    color: colours.secondary,
+    fontWeight: "bold",
+  },
+  title: {
+    marginBottom: 7,
+  },
+});
 
 export default Card;

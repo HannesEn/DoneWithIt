@@ -35,7 +35,7 @@ function AccountScreen(props) {
           renderItem={({ item }) => (
             <ListItem
               title={item.title}
-              ImageComponent={
+              IconComponent={
                 <Icon
                   name={item.icon.name}
                   backgroundColor={item.icon.backgroundColor}
@@ -47,7 +47,7 @@ function AccountScreen(props) {
       </View>
       <ListItem
         title="Log Out"
-        ImageComponent={
+        IconComponent={
           <Icon name="logout" backgroundColor={colours.lightYellow} />
         }
       />
