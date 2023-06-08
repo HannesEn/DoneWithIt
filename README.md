@@ -12,12 +12,14 @@ Organisations such as Netflix, NASA, Trello, PayPal, Linkedin, Walmart, Uber, Tw
 
 
 
+
 #### React Native
 React Native is an open-source framework developed by Facebook that enables developers to build native mobile applications using JavaScript and React. It offers a cross-platform approach, allowing developers to write code once and deploy it on both iOS and Android platforms. React Native leverages native components and APIs, providing the performance and look-and-feel of a native app.
 
 React Native utilizes a "learn once, write anywhere" philosophy, allowing developers with web development skills to easily transition into mobile app development. React Native offers a rich ecosystem of third-party libraries and tools, making it highly extensible and flexible. Its hot reloading feature enables rapid development and iteration, resulting in shorter development cycles.
 
 With its popularity and robust community support, React Native has become a popular choice for building efficient and visually appealing mobile applications.
+
 
 
 
@@ -32,12 +34,14 @@ On this project GitHub was used to colaborate, keep track of changes a write doc
 
 
 
+
 #### Visual Studio Code
 Visual Studio Code is an open source IDE(integrated development environment) created by Microsoft which is a more lightweight version of Microft Visual Studio.
 
 Whilst Visual Studio Code lacks low level programming capabilities(interacting directly with the hardware with languages such as C++ or Asembly) this makes it perfect for web development as developers can benifit from the softwares simple user interface, shortuts and extentions. 
 
 Visual studio code is videly used in the industry by companies such as Google and is also in use at many universities.
+
 
 
 
@@ -49,6 +53,7 @@ Expo.dev offers a range of powerful features, including an extensive library of 
 With Expo.dev, developers can quickly prototype, build, and deploy their applications, while also benefiting from features like hot reloading and instant updates.
 
 The platform is widely used and favored by developers for its ease of use, speed, and ability to accelerate the mobile app development cycle.
+
 
 
 
