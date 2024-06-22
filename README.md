@@ -1,4 +1,4 @@
-# DoneWithIt
+# DoneWithIt (School Project) (Following Code With Mosh course)
 
 ## Documentation
 
